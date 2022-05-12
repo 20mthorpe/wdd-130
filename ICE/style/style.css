@@ -1,0 +1,11 @@
+header, main, footer{
+    max-width: 400px;
+    margin: auto;
+}
+#content {
+    background-color: pink;
+}
+
+img {
+    max-width: 100%;
+}
