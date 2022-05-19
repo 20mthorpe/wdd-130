@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: grey;
+}
+img{
+    max-width: 100%;
+}
+
+.topblock {
+    max-width: 100%;
+}
+
+#one, #two, #three{
+    max-width: 20%;
+}
+
+.bottom{
+    background-color: grey;
+    text-align: center;
+}
+
+.bottom > img{
+    border-radius: 50%;
+    border:8px solid #333;
+    margin: 30px;
+}
