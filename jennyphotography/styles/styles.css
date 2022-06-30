@@ -1,3 +1,70 @@
-img{
-    width: 40%;
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Cormorant:wght@300&display=swap');
+:root {
+    /*colors*/
+    --primary-color: #546436   ;
+    --secondary-color: #4C4029 ;
+    --accent1-color: #7A6544;
+    --accent2-color: #CED6D6;
+  
+    /*fonts*/
+    --heading-font: "Cinzel";
+    --paragraph-font: "Cormorant", sans-serif;
+  
+    --headline-color-on-white: black;  /* headlines on a white background */ 
+    --headline-color-on-color: #CED6D6; /* headlines on a colored background */ 
+    --paragraph-color-on-white: black; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: #CED6D6; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #546436  ;
+    --nav-link-color: black;
+    --nav-background-color: #CED6D6;
+    --nav-hover-link-color: #CED6D6;
+    --nav-hover-background-color: #4C4029;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--headline-color-on-white);
+  }
+
+.homemain {
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+ /*   display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 1fr; */
+}
+.hometopmain {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+}
+#homeshortimg1{
+    grid-row: 2/3;
+    grid-template-rows: 2/3;
+}
+#homeshortimg2{
+    grid-row: 3/4;
+    grid-column: 2/3;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+}
+nav a{
+    text-align: center;
+    color: #f9f7f3;
+    text-decoration: none;
+    font-family: var(--heading-font);
+    padding: 35px;
+}
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+nav a:hover{
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+    padding: 35px;
 }
