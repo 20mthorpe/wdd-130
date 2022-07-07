@@ -40,7 +40,7 @@ img{
 .hometopgrid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 130px 1fr 1fr 35px;
+    grid-template-rows: 130px 1fr 1fr;
     gap: 2em;
     padding:2em;
 }
@@ -91,3 +91,25 @@ nav a:hover{
     background-color: var(--nav-hover-background-color);
     padding: 35px;
 }
+footer{
+    display: grid;
+    grid-template-columns: 3fr 1fr 60px;
+    background-color: var(--nav-background-color);
+    padding: 10px 30px;
+    margin-top: 30px;
+}
+a:link,a:visited{
+    text-decoration: none;
+    color: var(--nav-hover-background-color)
+}
+.social{
+    max-width: 60px;
+    
+}
+
+.pricinggrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+
