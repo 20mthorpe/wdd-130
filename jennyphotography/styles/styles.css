@@ -95,6 +95,28 @@ img{
     margin-top: 60px;
 }
 
+/* gallery */
+.gallerytitle{
+    height: 130px;
+    margin-top: 60px;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content:center;
+    text-align: center;
+}
+.bridals, .family, .couples, .portraits{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.portrait {
+    grid-row: span 2;
+}
+.weddinggallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
 
 /* navigation bar */
 .logo{
@@ -142,5 +164,4 @@ a:link,a:visited{
     max-width: 60px;
     
 }
-
 
